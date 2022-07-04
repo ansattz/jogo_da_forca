@@ -1,0 +1,132 @@
+body{
+   position: absolute;
+   margin: 0;
+   font-family: 'Finlandica', sans-serif;
+   min-width: 1224px;
+   box-sizing: border-box;
+   background: #F3F5FC;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   }
+
+   /* Header*/
+      .logo{
+         position: absolute;
+         top: 50px;
+         }
+
+   /* Main */
+      .start-game-class {
+         position: absolute;
+         display: flex;
+         padding: 30px;    
+         width: 220px;
+         top: 15em;
+         left: 26.5em;
+         
+         background-color: rgb(195, 145, 78);
+         border-radius: 50px;
+         color: rgb(114, 44, 44);
+         font-weight: 200;
+         font-size: 25px;
+         line-height: 22px;
+         justify-content: center;
+      }
+      .start-game-class:hover {
+         background-color: rgba(44, 26, 26, 0.644);
+      }
+
+      .start-game-class:active{
+         background-color: rgba(169, 41, 41, 0.967);
+      }
+
+      .start-game-class:active{
+         color: rgba(0, 0, 0, 0.967);
+      }
+
+      .exit-game{
+         position: relative;
+         display: flex;
+         padding: 30px;
+         width: 200px;
+         bottom: 3em;
+         left: 27em;
+
+         background-color: rgb(195, 145, 78);
+         border-radius: 50px;
+         color: rgb(114, 44, 44);
+         font-weight: 800;
+         font-size: 25px;
+         line-height: 22px;
+         justify-content: center;
+      }
+
+      .exit-game:hover {
+         background-color: rgba(44, 26, 26, 0.644);
+      }
+
+      .exit-game:active{
+         background-color: rgba(169, 41, 41, 0.967);
+      }
+
+      .exit-game:active{
+         color: rgba(0, 0, 0, 0.967);
+      }
+
+
+/* Screen adjust */  
+   @media (min-width: 481px) and (max-width: 840px) {
+      .logo{
+         top: 30px;
+         left: 10px;
+         width: 100px;
+      }  
+      .canvas{
+         width: 400px;
+      }
+      .start-game-class {
+         width: 60px;
+         padding: 0%;
+         top: 5.5em;
+         left: 23em;
+         font-size: 10px;
+      }
+      .exit-game{
+         width: 70px;       
+         padding: 0%;
+         font-size: 10px;
+         left: 22em;
+      }
+   }
+
+/* Mobile adjust*/
+   @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+      body{
+         min-width: 300px;
+      }
+         .canvas{
+            margin-top: 120px;
+            left: 155px;
+            width: 500px;
+         }
+         .logo{
+            left: 10px;
+            width: 120px;
+         }  
+         .start-game-class {
+            width: 120px;
+            padding: 2%;
+            top: 15em;
+            left: 4.5em;
+            font-size: 20px;
+         }
+         .exit-game{
+            width: 150px;
+            padding: 3%;
+            top: 1em;
+            left: 12em;
+            font-size: 20px;
+         }
+
+}        
+               
