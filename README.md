@@ -1,6 +1,6 @@
-# JOGO DA FORCA
-### Temática: Matemática
-#### Palavras: 
+# Hangman Game
+### Theme: Math
+#### Words: 
      ANALYSIS
      ALGEBRA
      TOPOLOGY
